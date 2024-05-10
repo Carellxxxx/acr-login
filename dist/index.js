@@ -16867,8 +16867,9 @@ async function run() {
                 accessKeyId,
                 accessKeySecret,
                 securityToken,
+		InstanceId: instanceId,
                 endpoint: endpoint,
-                apiVersion: '2016-06-07'
+                apiVersion: '2018-12-01'
             });
 
             try {
